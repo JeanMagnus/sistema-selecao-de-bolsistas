@@ -30,6 +30,14 @@ public class Inicializador extends Job {
 			adm.nome = "Aline";
 			adm.matricula= "20190001";
 			adm.senha = "aline2019";
+			adm.save();
+		}
+		if(Administrador.count()==0) {
+			Administrador adm = new Administrador();
+			adm.nome = "Aline";
+			adm.matricula= "20190001";
+			adm.senha = "aline2019";
+			adm.save();
 		}
 		
 		
